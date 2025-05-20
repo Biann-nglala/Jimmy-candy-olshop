@@ -1,0 +1,124 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: monospace;
+}
+
+header {
+    width: 100%;
+    background-color: #EBE5C2;
+    border-bottom: 4px solid #ebd5b3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo img {
+    width: 150px;
+}
+
+.Logo img:hover {
+    transform: scale(.9);
+    transition: all .4s ease-in-out;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul li {
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #ebd5b3;
+}
+
+#Hero img {
+    width: 100%;
+}
+
+#About {
+    background-image: url();
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #ebd5b3;
+}
+
+#About h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #About p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+  
+  #Product {
+      width: 100%;
+      background-color: #ffffff;
+      text-align: center;
+      margin: 40px;
+    }
+  
+    #Product h2 {
+      text-align: center;
+      color: hsl(25, 100%, 62%);
+    }
+    
+    
+    .Card-Product {
+      width: 95%;
+      margin: 30px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+    
+    
+    .Card {
+      box-shadow: 0 4px 8px 0 rgb(246, 210, 163);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    
+    .Price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    
+    .Card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #dc9c44;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    
+    .Card button:hover {
+      opacity: 0.7;
+    }
